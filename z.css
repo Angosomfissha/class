@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    width: 100%;
+    background-color: aqua;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    background-color: red;
+}
+header{
+    position: relative;
+}
+
+.image-container{
+    position: relative;
+    width:100% ;
+    height: 420px;
+}
+.image-container img{
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+}
+.nav{
+    position: absolute;
+ top: 0;
+ width: 100%;
+}
+.container-nav{
+   display: flex; 
+   justify-content: space-between;
+   align-items: center;
+}
+.logocontainer{
+    display: flex;
+    align-items: center;
+}
