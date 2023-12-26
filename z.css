@@ -12,6 +12,7 @@ body{
 }
 header{
     position: relative;
+    height: 420px;
 }
 
 .image-container{
@@ -24,12 +25,16 @@ header{
  height: 100%;
  object-fit: cover;
 }
-.nav{
+.header-body-section{
     position: absolute;
  top: 0;
  width: 100%;
  color: white;
+ text-align: center;
+}
+.nav{
  font-weight: 550;
+ height: 50px;
 }
 .container-nav{
    display: flex; 
@@ -41,7 +46,7 @@ header{
     align-items: center;
 }
 .logocontainer p{
-    padding: 10px;
+    padding: 5px;
 
 }
 .nav ul{
@@ -52,14 +57,37 @@ header{
   padding: 0px 3px; 
   margin-right: 25px;
   font-size: 18px; 
+  font-weight: ;
 }
 .nav ul li a{
  color: inherit;
  text-decoration: none;
 }
-.header-body{
-    width: 250;
+h1{
+    font-size: 70px;
+}
+.res-logo p{
+    font-size: 60px;
+    width: 800px;
+}
+.container-header-body{
+    display: flex;
     justify-content: center;
     text-align: center;
-
+    height: 500px;
+    flex-direction: column;
+}
+.header-body-content{
+    position: relative;
+    top:-50px;
+}
+.header-section-discover{
+ font-size: 20px;
+ margin: 0;
+}
+.search-container{
+   background-color: white;
+   width: 100%; 
+   height: 50px;
+   border-radius: 20px;
 }
